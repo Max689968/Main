@@ -7,21 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container" id="mainScreen">
-        <img src="cat apology.jpg" alt="I'm Sorry">
-        <p class="message">Do you forgive me?</p>
+    <div class="container">
+        <img src="images/cat-apology.jpg" alt="I'm Sorry" class="cat-image">
+        <h1>Will you forgive me?</h1>
         <div class="buttons">
-            <button class="yes" onclick="goToYes()">Yes</button>
-            <button class="no" onclick="rejectApology()">No</button>
+            <a href="yes.html" class="btn yes">Yes</a>
+            <a href="no.html" class="btn no">No</a>
         </div>
     </div>
-
-    <div id="sadScreen">
-        🥺🙏🙏
-        <button class="ok-btn" onclick="restorePage()">OK</button>
-    </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
