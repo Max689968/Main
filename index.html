@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="mainScreen">
+        <img src="static/cat-apology.jpg" alt="I'm Sorry">
+        <p class="message">I am truly sorry for my actions. I feel ashamed that I hurt you. Please forgive me.</p>
+        <p class="hidden-message">Sorry madam, don't be quiet.</p>
+        <div class="buttons">
+            <button class="yes" onclick="acceptApology()">Yes</button>
+            <button class="no" onclick="rejectApology()">No</button>
+        </div>
+    </div>
+
+    <div id="sadScreen">
+        🥺🙏🙏
+        <button class="ok-btn" onclick="restorePage()">OK</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
