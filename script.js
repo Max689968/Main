@@ -1,13 +1,7 @@
-function rejectApology() {
-    document.getElementById("mainScreen").style.display = "none";
-    document.getElementById("sadScreen").style.display = "flex";
-}
-
-function restorePage() {
-    document.getElementById("mainScreen").style.display = "block";
-    document.getElementById("sadScreen").style.display = "none";
-}
-
-function goToYes() {
-    window.location.href = "yes.html";
-}
+// Example: Display message in Yes Page
+document.addEventListener("DOMContentLoaded", function() {
+    let message = document.querySelector(".custom-message");
+    if (message) {
+        message.textContent = "You can edit this message in the code.";
+    }
+});
