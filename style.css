@@ -72,3 +72,9 @@ button {
     border: 2px dashed gray;
     padding: 10px;
 }
+
+/* 🌸 Yes Page Background */
+.yes-page {
+    background: url('cat-flowers.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
